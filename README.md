@@ -1,2 +1,2 @@
 # NOMA
-this project is analyze noma dataset
+this project is analyze noma dataset.
