@@ -21,33 +21,24 @@ It is designed for exploring NOMA communication behavior and analyzing how inter
 - Seaborn
 - Custom Network Calculations (SINR, BER, noise modeling)
 
-✨ Key Features
+## ✨ Key Features
+- ✔ Data preprocessing & cleaning
+- ✔ SINR computation (linear & dB)
+- ✔ BER calculation for uplink/downlink
+- ✔ Noise modeling
+- ✔ Machine Learning model training
+- ✔ ML evaluation metrics (MSE, R², learning curves, etc.)
+- ✔ Graphs & visualizations
+- ✔ Export of predictions as CSV/Excel
 
-✔ Data preprocessing & cleaning
-✔ SINR computation (linear & dB)
-✔ BER calculation for uplink/downlink
-✔ Noise modeling
-✔ Machine Learning model training
-✔ ML evaluation metrics (MSE, R², learning curves, etc.)
-✔ Graphs & visualizations
-✔ Export of predictions as CSV/Excel
-
-📦 Dataset Information
-
-The dataset includes numerical features such as:
-
-avg_uplink
-
-avg_downlink
-
-avg_crosslink
-
-avg_userpower
-
-avg_transmitpower
-
-user IDs, base station IDs, etc.
-
+## 📦 Dataset Information
+### The dataset includes numerical features such as:
+- avg_uplink
+- avg_downlink
+- avg_crosslink
+- avg_userpower
+- avg_transmitpower
+- user IDs, base station IDs, etc.
 📌 The dataset must be downloaded separately (not included inside the repository).
 
 🚀 How to Run
