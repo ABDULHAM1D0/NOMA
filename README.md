@@ -1,41 +1,25 @@
-NOMA (Non-Orthogonal Multiple Duplex)
-
-📖 Description
-
+# NOMA (Non-Orthogonal Multiple Duplex)
+## 📖 Description
 This project predicts uplink and downlink SINR using machine-learning models and visualizes various network interference metrics.
 It is designed for exploring NOMA communication behavior and analyzing how interference changes under different network conditions.
 
-🎯 Project Goal
+## 🎯 Project Goal
+### The main goal of this project is to:
+- Predict uplink and downlink interference levels
+- Visualize interference behavior
+- Help identify optimal user power allocation
+- Provide an ML-based approach to understanding crosslink, uplink, and downlink interference relationships
+- This project assists in analyzing network efficiency and improving power distribution strategies.
 
-The main goal of this project is to:
-
-Predict uplink and downlink interference levels
-
-Visualize interference behavior
-
-Help identify optimal user power allocation
-
-Provide an ML-based approach to understanding crosslink, uplink, and downlink interference relationships
-
-This project assists in analyzing network efficiency and improving power distribution strategies.
-
-🛠 Technologies Used
-
-Google Colab
-
-Python 3
-
-NumPy
-
-Pandas
-
-Scikit-Learn
-
-Matplotlib
-
-Seaborn
-
-Custom Network Calculations (SINR, BER, noise modeling)
+## 🛠 Technologies Used
+- Google Colab
+- Python 3
+- NumPy
+- Pandas
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+- Custom Network Calculations (SINR, BER, noise modeling)
 
 ✨ Key Features
 
