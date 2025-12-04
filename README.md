@@ -41,54 +41,31 @@ It is designed for exploring NOMA communication behavior and analyzing how inter
 - user IDs, base station IDs, etc.
 📌 The dataset must be downloaded separately (not included inside the repository).
 
-🚀 How to Run
+## 🚀 How to Run
+- Open the project notebook in Google Colab
+- Ensure GPU runtime is enabled
+- Upload your dataset
+- Run notebook cells step-by-step in order
+### The notebook will:
+- preprocess data
+- calculate SINR/BER
+- train models
+- generate predictions
+- output visual graphs and Excel files
 
-Open the project notebook in Google Colab
+## 📊 Outputs
+### This project generates:
+- 📈 Learning curves
+- 📉 Interference visualizations
+- 📘 Excel and CSV export files
+- 🔍 ML evaluation metrics such as:
+  - MSE
+  - RMSE
+  - R² Score
+- 📡 Predicted uplink & downlink SINR values
 
-Ensure GPU runtime is enabled
-
-Upload your dataset
-
-Run notebook cells step-by-step in order
-
-The notebook will:
-
-preprocess data
-
-calculate SINR/BER
-
-train models
-
-generate predictions
-
-output visual graphs and Excel files
-
-📊 Outputs
-
-This project generates:
-
-📈 Learning curves
-
-📉 Interference visualizations
-
-📘 Excel and CSV export files
-
-🔍 ML evaluation metrics such as:
-
-MSE
-
-RMSE
-
-R² Score
-
-📡 Predicted uplink & downlink SINR values
-
-🔮 Future Work
-
-The next phase of the project will focus on:
-
-Optimizing power allocation to reduce interference
-
-Testing reinforcement learning for dynamic network adaptation
-
-Real-time interference prediction
+## 🔮 Future Work
+### The next phase of the project will focus on:
+- Optimizing power allocation to reduce interference
+- Testing reinforcement learning for dynamic network adaptation
+- Real-time interference prediction
